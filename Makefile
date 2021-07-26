@@ -7,6 +7,3 @@ local_run:
 
 local_stop:
 	docker stop rust_json
-
-cut_production_image:
-	./cut_build_push_image.sh
