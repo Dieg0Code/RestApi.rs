@@ -31,6 +31,7 @@ pub fn read_movie(title: String) -> Option<Movie> {
             match index {
                 Some(x) => Some(movies[x].clone()),
                 None => None,
+                
             }
         }
         Err(_) => None

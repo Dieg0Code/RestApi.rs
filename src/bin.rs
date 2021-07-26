@@ -28,8 +28,8 @@ fn create_movie(movie: Json<Movie>) -> Json<Option<Movie>> {
     Json(db::insert_movie(movie.0))
 }
 
-# [delete("/<title>")]
-fn delete_movie(title: &RawStr) -> Json<bool>{
+#[delete("/<title>")]
+fn delete_movie(title: &RawStr) -> Json<bool> {
     Json(db::delete_movie(title.url_decode().expect("Failed to delete")))
 }
 
