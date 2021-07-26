@@ -18,4 +18,12 @@ rustup default nigthly
 
 La version `nightly` de Rust es su ultima version, podría llegar a ser inestable.
 
+Para ejecutar el proyecto:
+
+```bash
+make local_run
+```
+
+Este proyecto tiene un `Makefile` check it!
+
 ![ferris](https://i.redd.it/vp0a1tf4jc911.png)
