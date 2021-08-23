@@ -24,8 +24,8 @@ Para ejecutar el proyecto:
 make local_run
 ```
 
-Este proyecto tiene un `Makefile` [check it!](https://hernandis.me/2017/03/20/como-hacer-un-makefile.html)
+Este proyecto tiene un [`Makefile`](https://hernandis.me/2017/03/20/como-hacer-un-makefile.html)
 
-GNU make es una utilidad disponible en Linux que agiliza la tarea de compilar código desde la terminal. Nos evita tener que escribir los comandos de compilación a mano, que suelen ser muy largos, y en cambio nos permite escribir algo mucho más corto que al final hace lo mismo. Además, make puede hacer muchas otras cosas que harán que preparar las prácticas para enviarlas sea coser y cantar.
+GNU make es una utilidad disponible en Linux que agiliza la tarea de compilar código desde la terminal. Nos evita tener que escribir los comandos de compilación a mano, que suelen ser muy largos, y en cambio nos permite escribir algo mucho más corto que al final hace lo mismo.
 
 ![ferris](https://i.redd.it/vp0a1tf4jc911.png)
